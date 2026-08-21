@@ -10,7 +10,7 @@
          * without inventing any physical keys.
          */
         default_layer {
-            bindings = <>;
+            bindings = <&none>;
         };
     };
 };
