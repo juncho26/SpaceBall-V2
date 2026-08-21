@@ -1,0 +1,6 @@
+if SHIELD_SPACEBALL
+
+config ZMK_KEYBOARD_NAME
+    default "SpaceBall"
+
+endif

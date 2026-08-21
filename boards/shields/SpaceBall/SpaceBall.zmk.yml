@@ -1,0 +1,8 @@
+file_format: "1"
+id: SpaceBall
+name: SpaceBall
+type: shield
+url: https://github.com/juncho26/SpaceBall
+requires: [seeeduino_xiao_ble]
+features:
+  - pointing

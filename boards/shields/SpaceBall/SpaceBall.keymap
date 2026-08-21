@@ -1,0 +1,16 @@
+#include <behaviors.dtsi>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        /*
+         * SpaceBall has no keyboard switch matrix in the supplied schematic.
+         * The empty binding list keeps the standard ZMK keymap node present
+         * without inventing any physical keys.
+         */
+        default_layer {
+            bindings = <>;
+        };
+    };
+};
